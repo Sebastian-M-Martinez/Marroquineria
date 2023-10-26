@@ -1,0 +1,70 @@
+
+*{
+  margin: auto;
+}
+
+.flex {
+   display: flex;
+   flex-wrap: nowrap;
+        
+  }
+  .flex> div{
+    width: 600px;
+    margin: 50px;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Tilt Neon', sans-serif;
+
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  h2 {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 20px;
+    background-color:#45a049;
+    text-align: center;
+    
+    
+  }
+  .imagen{
+    background-image: url(../img/sobres.jpg);
+    padding: 20px;
+    
+    font-size: large;
+    color:black;
+    font-weight: bolder;
+ 
+  }
+  
+ 

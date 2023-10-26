@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .tituloPagina {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .tituloSubproducto {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+    }
+    .flex-container {
+      display: flex;
+      background-color: rgb(142, 162, 182);
+      justify-content: space-around;
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+    
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .txtCodigo {
+      border-top: 1px solid #ccc;
+      padding-top: 0.5em;
+    }
+
+    .tarjeta {
+      background-color: #f2f2f2; 
+      margin-bottom: 2em;
+      margin: 1em 3em;
+      padding: 1em 1em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+    }
+    
+    .flex-container > div > img {
+      width: 100%;
+    }
+    
+    .flex-container > div > .title {
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:large;
+      margin-top: 10px;
+    }
+    
+    .flex-container > div > .code {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+      border-top: 1px solid #ccc;
+      margin-top: 10px;
+      padding-top: 10px;
+    }
+    
+    .tipoProducto-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .column-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .column-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .column-left img,
+    .column-right img {
+      width: 100%;
+    }
+
+    .column-left h3,
+    .column-right h3 {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .column-left p,
+    .column-right p {
+      text-align: center;
+    }
+
+    
+    </style>
+    </head>
+    <body>
+    
+    <h1 class="tituloPagina">Productos / Billeteras / Cuero</h1>
+    <h2 class="tituloPagina">Mochilas  / Matero</h2>
+    <div class="flex-container">
+      <div>
+        <img src="img/img1.jpg">
+        <div class="title">Mochila para Mujer</div>
+        <div class="code">CODIGO 45265</div>
+      </div>
+      <div>
+        <img src="img/img4.jpg">
+        <div class="title">Matero</div>
+        <div class="code">CODIGO 24413</div>
+      </div>
+      
+      <div>
+        <img src="img/img4.jpg">
+        <div class="title">Matero</div>
+        <div class="code">CODIGO 24413</div>
+      </div>
+      <div>
+        <img src="img/img6.jpg">
+        <div class="title">Mochila para Mujer</div>
+        <div class="code">CODIGO 87446</div>
+      </div>  
+    </div>
+
+   <h1 class="tituloPagina">Productos / Llaveros / Cuero</h1>
+   <h2 class="tituloPagina">Llaveros Personalizados</h2>
+   <div class="flex-container">
+      <div>
+        <img src="img/llavero1.jpg">
+        <div class="title">Llavero con logo</div>
+        <div class="code">CODIGO 7001</div>
+     </div>
+     <div>
+      <img src="img/llavero2.jpg">
+      <div class="title">Llavero con logo</div>
+      <div class="code">CODIGO 7002</div>
+    </div>
+     <div>
+      <img src="img/llavero3.jpg">
+      <div class="title">Llaveros sin logos</div>
+      <div class="code">CODIGO 7003</div>
+    </div>
+     <div>
+      <img src="img/llavero4.jpg">
+      <div class="title">Llavero para mujer</div>
+      <div class="code">CODIGO 7004</div>
+    </div>
+   </div>
+    
+
+
+
+    
+   <h2 class="tituloSubproducto"><b>BILLETERAS - Marca: </b><em><b>RIP</b></em> <em><b>CURL</b></em>.</h2>
+   
+   <div class="tipoProducto-container"> 
+      
+    <div class="tipoProducto-container">
+      <div class="column-left">
+        <div class="tarjeta">
+          <img src="img/billetera1.jpg" alt="Producto 1">
+          <h3 class="txtProducto">Billetera para hombre</h3>
+          <p  class="txtCodigo">CODIGO 4100</p>
+        </div>
+        <div class="tarjeta">
+          <img src="img/billetera2.jpg" alt="Producto 1">
+          <h3 class="txtProducto">Billetera para hombre</h3>
+          <p  class="txtCodigo">CODIGO 4110</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/billetera3.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para hombre</h3>
+            <p  class="txtCodigo">CODIGO 4120</p>
+          </div>
+          <div class="tarjeta">
+          <img src="img/billetera4.jpg" alt="Producto 1">
+          <h3 class="txtProducto">Billetera para hombre</h3>
+          <p  class="txtCodigo">CODIGO 4130</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/billetera5.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para hombre</h3>
+            <p  class="txtCodigo">CODIGO 4140</p>
+          </div>
+        <div class="tarjeta">
+            <img src="img/billetera6.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para hombre</h3>
+            <p  class="txtCodigo">CODIGO 4150</p>
+          </div>
+         
+        
+      </div>
+      <div class="column-right">
+        <div class="tarjeta">
+          <img src="img/billetera1-1.jpg" alt="Producto 2">
+          <h3>Billetera para mujer </h3>
+          <p  class="txtCodigo">CODIGO 3110</p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/billetera6-6.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para mujer</h3>
+            <p  class="txtCodigo">CODIGO 3120</p>
+          </div>
+        <div class="tarjeta">
+            <img src="img/billetera2-2.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para mujer</h3>
+            <p  class="txtCodigo">Código 3130</p>
+          </div>
+
+        <div class="tarjeta">
+            <img src="img/billetera3-3.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para mujer</h3>
+            <p  class="txtCodigo">CODIGO 3140</p>
+          </div>
+        <div class="tarjeta">
+            <img src="img/billetera4-4.jpg" alt="Producto 1">
+            <h3 class="txtProducto">Billetera para mujer</h3>
+            <p  class="txtCodigo">CODIGO 3150</p>
+          </div>
+        <div class="tarjeta">
+          <img src="img/billetera5-5.jpg" alt="Producto 2">
+          <h3>Billetera para mujer </h3>
+          <p  class="txtCodigo">CODIGO 3160</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+    
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+  <link rel="shortcut icon" href="img/logo1.jpg"
+<head>
+  <title>Producto</title>
+</head>
+<body>
+  <!-- Contenido de la página Producto.html -->
+
+  <!-- Botón de "Productos" con imagen -->
+  <a href="index.html">
+    <img src="img/volver1.png" alt="index.html">
+  </a>
+</body>
+</html>

@@ -1,0 +1,143 @@
+.container {
+    background-image: url("../img/fondo\ pricipal.jpg");
+    background-size: cover;
+    background-position: center;
+    
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    color:gainsboro
+    
+    
+  }
+
+  .product-container {
+    background-image: url("../img/logo3.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+  h1 {
+    color:whitesmoke
+    font-size: 64px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 25px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Añadido para centrar verticalmente */
+    height: 100%; /* Añadido para centrar verticalmente */
+  }
+  
+  h2 {
+    color:whitesmoke
+    font-size: 70px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 25px;
+  }
+  .titulo5 {
+    background:red;
+    
+}
+
+P {
+  color:black;
+  font-size: 64px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+
+  .button {
+    display:inline-flex;
+
+    padding: 10px 20px;
+    margin: 35px;
+   
+    color:beige;
+    border: none;
+    text-decoration: none;
+    font-size: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #a9b1ba;
+  }
+  
+  /* Personalizar estilos y colores de los botones */
+  
+  .button {
+    /* Estilos del botón */
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: blanchedalmond
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    /* Estilos al pasar el cursor por encima del botón */
+    animation-name: colorChange;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #007bff;
+    }
+    50% {
+      background-color:black;
+    }
+    100% {
+      background-color:black;
+    }
+  }
+  .copyright {
+    background-color:rgb(174, 165, 233);
+    
+    background-size: cover;
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 30px;
+    font-size: 40px;
+  }

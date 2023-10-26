@@ -1,0 +1,94 @@
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(68, 75, 56, 0.192);
+  margin: 0; 
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+ p {
+  font-size: x-large;
+  text-align: justify;
+ }
+
+.flex-container {
+  display: flex;
+  background-color: rgb(142, 162, 182);
+  justify-content: space-around;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin: auto;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descripcion {
+  font-size: large;
+  text-align: justify;
+}
+
+h2 {
+
+  text-align: center;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.boton:hover {
+    background-color: blue; 
+    color: black; 
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 10vh; 
+}
+
+.contenedor-boton {
+  text-align: center;
+  background-color: grey;
+}
+
+@media (min-width: 600px) {
+  .flex-container {
+      width: 80%;
+  }
+}
+
+
+ 
